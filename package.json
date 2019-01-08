@@ -1,0 +1,28 @@
+{
+  "name": "browserrefresh",
+  "version": "0.1.0",
+  "description": "Script to run a server and watch file changes to refresh",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuerojasrojas/BrowserRefresh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josuerojasrojas/BrowserRefresh/issues"
+  },
+  "homepage": "https://github.com/josuerojasrojas/BrowserRefresh#readme",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "chokidar": "^2.0.4"
+  }
+}
