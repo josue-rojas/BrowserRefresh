@@ -22,7 +22,7 @@ function refresh(browser, app) {
 // app: the main app you are using to switch back (editor you are using)
 module.exports = function(browser, filepath, port, app){
   let BROWSER = browser || 'Safari';
-  let FILEPATH = filePath || '.';
+  let FILEPATH = filepath || '.';
   let PORT = port || 8000;
   let APP = app || 'atom';
 
